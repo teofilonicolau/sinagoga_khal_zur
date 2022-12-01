@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700&family=Pacifico&family=Rancho&family=Reenie+Beanie&family=Rock+Salt&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url("./khal\ azur\ israel.jpg");
+    box-sizing: cover;
+    background-position: top center;
+    color: rgb(17, 1, 1);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 5px solid rgb(218, 147, 16);
+    border-radius: 20px 20px;
+    box-shadow: 10px 5px 5px black;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin:auto;
+    font-size: 25px;
+   
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin:top;
+    font-size: 20px;
+    max-width: 888px;
+    margin:auto;
+}
+
+
+.subtitle {
+    font-size: normal;
+    margin: auto;
+}
+   
+ 
+body {
+    font-size:  1.20rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+main {
+    background-image: url("./papel\ amassado.webp");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+a{text-decoration: none;
+    
+}
+a:hover{
+    background-color: rgb(244, 255, 240);
+    color:rgb(0, 0, 0);
+}
+
+ul  {
+    
+    display: flex;
+    line-height: 180%;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+footer {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    border-bottom: 8 px solid rgb(185, 97, 37);
+    border: 2px solid rgb(26, 31, 26);
+    border-radius:20px 20px ;
+    box-sizing: border-box;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+   
+
+p{ 
+    font-weight: normal;
+    max-width: 648px;
+    margin: auto;
+}
+.social-icons {
+    margin-top: 10px;
+    display:flex;
+    text-align: left;
+    padding: 25px;
+    
+}
+.icon {
+    width: 30px;    
+}
+.author {
+        font-weight: bold;
+        font-size: 0,8em;
+      
+}
+#final{
+    font-size: 15px;
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+    
+
